@@ -147,7 +147,9 @@ git branch -D myBranch
 <p class="inf">
 Ebergement de nos projets à distance</br>
 Comment le lancer</br>
-https://github.com
+https://github.com</br>
+or</br>
+https://github.com/session</br>
 </p>
 <h3>Créer un compte</h3>
 <p class="inf">
@@ -241,6 +243,16 @@ and the repository exists.
 <h4>Recuper le repository test en local en premier avant de faire un push</h4>
 <p class="cmd">
 git pull origin master
+
+si probleme
+git pull origin master --allow-unrelated-histories
+
+Changer le nom du repository
+git remote set-url origin new_url
+
+Pour transformer en site web : gitusername.github.io
+git remote set-url origin git@github.com:gitusername/gitusername.github.io
+
 </p>
 </body>
 </html>
